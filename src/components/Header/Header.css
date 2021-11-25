@@ -1,0 +1,197 @@
+.HeaderContainer {
+    height: 15vh;
+
+    background-color: black;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 35px;
+}
+
+.Logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Lines {
+    stroke: white;
+}
+
+.LogoText {
+    position: absolute;
+}
+
+.LogoMatsu {
+    font-size: 1.33rem;
+    transition: font-size 1s;
+    color: black;
+    text-shadow: 
+    0 0 5px #E8E6EA,
+    0 0 10px #E8E6EA,
+    0 0 15px #E8E6EA,
+    0 0 20px #E8E6EA,
+    0 0 25px #E8E6EA,
+    0 0 42px #E8E6EA,
+    0 0 82px #E8E6EA,
+    0 0 92px #E8E6EA,
+    0 0 102px #E8E6EA,
+    0 0 151px #E8E6EA;
+}
+
+.LogoMatsuOn {
+    /* animation: flicker 1.5s infinite alternate; */
+    font-size: 3rem;
+    transition: font-size 1s;
+    color: black;
+    text-shadow: 
+    0 0 5px #E8E6EA,
+    0 0 10px #E8E6EA,
+    0 0 15px #E8E6EA,
+    0 0 20px #E8E6EA,
+    0 0 25px #E8E6EA,
+    0 0 42px #E8E6EA,
+    0 0 82px #E8E6EA,
+    0 0 92px #E8E6EA,
+    0 0 102px #E8E6EA,
+    0 0 151px #E8E6EA;
+}
+
+.LogoMoto {
+    font-size: 1.33rem;
+    transition: font-size 1s;
+    color: black;
+    text-shadow: 
+        0 0 5px #E8E6EA,
+        0 0 10px #E8E6EA,
+        0 0 15px #E8E6EA,
+        0 0 20px #E8E6EA,
+        0 0 25px #E8E6EA,
+        0 0 42px #E8E6EA,
+        0 0 82px #E8E6EA,
+        0 0 92px #E8E6EA,
+        0 0 102px #E8E6EA,
+        0 0 151px #E8E6EA;
+}
+
+.LogoMotoOn {
+    font-size: 3rem;
+    transition: font-size 1s;
+    color: black;
+    text-shadow: 
+        0 0 5px #E8E6EA,
+        0 0 10px #E8E6EA,
+        0 0 15px #E8E6EA,
+        0 0 20px #E8E6EA,
+        0 0 25px #E8E6EA,
+        0 0 42px #E8E6EA,
+        0 0 82px #E8E6EA,
+        0 0 92px #E8E6EA,
+        0 0 102px #E8E6EA,
+        0 0 151px #E8E6EA;
+}
+
+.HeaderLinks {
+
+}
+
+.HeaderLinks ul {
+    list-style-type: none;
+    font-size: 1.33rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+}
+
+.HeaderLinks li {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px 25px;
+}
+
+.HeaderLinks a {
+    color: white;
+    text-decoration: none;
+}
+.HeaderLinks a:hover {
+    color: gray;
+}
+.HeaderLinks a:visited {
+    
+}
+
+
+/* -----RESPONSIVE DESIGN TEMPLATES----- */
+/* -------DESKTOP-FIRST TEMPLATE------- */
+/* Extra large devices (large laptops/desktops, 1201px and up) */
+@media only screen and (min-width: 1201px) {
+
+}  
+/* Large devices (laptops/desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+
+} 
+
+/* Medium devices (landscape tablets, 992px and down) */
+@media only screen and (max-width: 992px) {
+    .HeaderContainer {
+        padding: 0px 10px;
+    }
+}
+
+ /* Small devices (portrait tablets and large phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+    .Logo {
+        width: 125px;
+    }
+
+    .HeaderContainer {
+        padding: 0px 10px;
+    }
+
+    .HeaderLinks {
+        margin: 0 20px;
+    }
+
+    .HeaderLinks li {
+        font-size: 1.20rem;
+        margin: 10px;
+    }
+}
+
+/* Extra small devices - landscape (RatChecker landscape smartphone and portrait tablet look different) */
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .HeaderContainer {
+        padding: 0px 0px;
+        justify-content: center;
+    }
+
+    .HeaderLinks {
+        margin: 0 15px;
+    }
+
+    .HeaderLinks li {
+        font-size: 0.8rem;
+        margin: 10px;
+    }
+}

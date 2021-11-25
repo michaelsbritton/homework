@@ -1,0 +1,31 @@
+{
+    "Books": ["---","Harry Potter and the Sorcerer's Stone","Diary of a Wimpy Kid: The Meltdown","Diary of an Awesome Friendly Kid"],
+    "Sections": [[
+        "---"
+    ],
+    [
+        "Chapter 1: The Boy Who Lived",
+        "Chapter 2: The Vanishing Glass",
+        "Chapter 3: The Letters from No One",
+        "Chapter 4: The Keeper of Keys",
+        "Chapter 5: Diagon Alley",
+        "Chapter 6: The Journey from Platform 9 and 3/4",
+        "Chapter 7: The Sorting Hat",
+        "Chapter 8: The Potions Master",
+        "Chapter 9: The Midnight Duel",
+        "Chapter 10: Hallowe'en",
+        "Chapter 11: Quidditch",
+        "Chapter 12: The Mirror of Erised",
+        "Chapter 13: Nicolas Flamel",
+        "Chapter 14: Norbert the Norwegian Ridgeback",
+        "Chapter 15: The Forbidden Forest",
+        "Chapter 16: Through the Trapdoor",
+        "Chapter 17: The Man with Two Faces"
+    ],
+    [
+        "1-38","39-85","86-135","136-168","169-217"
+    ],
+    [
+        "Part 1", "Part 2", "Part 3"
+    ]]
+}

@@ -1,0 +1,59 @@
+.HomeworkContainer {
+    
+}
+
+.HomeworkTitle {
+    font-size: 3rem;
+    font-family: 'Primitive';
+
+    margin: 33px 0px;
+}
+
+.HomeworkText {
+    margin: 0 10vw;
+}
+
+/* -----RESPONSIVE DESIGN TEMPLATES----- */
+/* -------DESKTOP-FIRST TEMPLATE------- */
+/* Extra large devices (large laptops/desktops, 1201px and up) */
+@media only screen and (min-width: 1201px) {
+
+}  
+/* Large devices (laptops/desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+
+} 
+
+/* Medium devices (landscape tablets, 992px and down) */
+@media only screen and (max-width: 992px) {
+   
+}
+
+ /* Small devices (portrait tablets and large phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+    
+    .HomeworkTitle {
+        font-size: 2rem;
+    }
+    .HomeworkText {
+        font-size: 0.95rem;
+    }
+
+}
+
+/* Extra small devices - landscape (RatChecker landscape smartphone and portrait tablet look different) */
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .HomeworkTitle {
+        font-size: 1.75rem;
+    }
+    .HomeworkText {
+        font-size: 0.9rem;
+    }
+
+}

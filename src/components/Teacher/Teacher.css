@@ -1,0 +1,79 @@
+.TeacherContainer {
+
+}
+
+.TeacherTitle {
+    font-size: 3rem;
+    font-family: 'Primitive';
+
+    margin: 33px 0px;
+}
+
+.TeacherMessage {
+    margin: 15px;
+}
+
+.TeacherNavigation {
+    margin: 50px 0px;
+}
+
+/* -----RESPONSIVE DESIGN TEMPLATES----- */
+/* -------DESKTOP-FIRST TEMPLATE------- */
+/* Extra large devices (large laptops/desktops, 1201px and up) */
+@media only screen and (min-width: 1201px) {
+
+}  
+/* Large devices (laptops/desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+
+} 
+
+/* Medium devices (landscape tablets, 992px and down) */
+@media only screen and (max-width: 992px) {
+   
+}
+
+ /* Small devices (portrait tablets and large phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+    
+    .TeacherTitle {
+        font-size: 2rem;
+        font-family: 'Primitive';
+    
+        margin: 33px 0px;
+    }
+    .TeacherMessage {
+        font-size: 0.95rem;
+        margin: 15px;
+    }
+
+}
+
+/* Extra small devices - landscape (RatChecker landscape smartphone and portrait tablet look different) */
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .TeacherTitle {
+        font-size: 1.75rem;
+        font-family: 'Primitive';
+    
+        margin: 33px 0px;
+    }
+    .TeacherNavigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin: 25px 0px;
+    }
+    .TeacherNavigation button {
+        width: 250px;
+        margin: 15px 0px;
+    }
+
+}

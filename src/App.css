@@ -1,11 +1,15 @@
+@font-face {
+  font-family: 'Primitive';
+  src: local('Primitive'), url('./assets/fonts/Primitive.ttf') format('truetype');
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

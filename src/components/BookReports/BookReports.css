@@ -1,0 +1,153 @@
+/* @font-face {
+    font-family: 'Primitive';
+    src: local('Primitive'), url('../../assets/fonts/Primitive.ttf') format('truetype');
+} */
+
+.BookReportContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5vw;
+}
+
+.BookReportTitle {
+    font-size: 3rem;
+    font-family: 'Primitive';
+
+    margin: 33px 0px;
+}
+
+.BookReportSelectionBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 5px 0px 35px 0px;
+}
+
+.BookDropdown {
+    margin: 0px 15px;
+}
+
+.ChapterDropdown {
+    margin: 0px 15px;
+}
+
+.SelectionDisplay {
+    width: 75%;
+    margin: 15px 0px 0px 0px;
+}
+
+.Selection {
+    font-size: 1.33rem;
+    text-align: left;
+}
+
+.ReportInput {
+    width: 75%;
+    /* height: 300px;
+    border: 2px solid black;
+    margin: 25px 0px; */
+}
+
+.ReportTextArea {
+    max-height:'500px';
+    min-height:'38px';
+    width: 100%;
+    height: 300px;
+    resize:'none';
+    padding:'9px';
+    box-sizing:'border-box';
+    font-size:'15px';
+
+    margin: 20px 0px;
+}
+
+.ReportControls {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+
+    margin: 0 0 20px 0;
+}
+
+
+/* -----RESPONSIVE DESIGN TEMPLATES----- */
+/* -------DESKTOP-FIRST TEMPLATE------- */
+/* Extra large devices (large laptops/desktops, 1201px and up) */
+@media only screen and (min-width: 1201px) {
+
+}  
+/* Large devices (laptops/desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+
+} 
+
+/* Medium devices (landscape tablets, 992px and down) */
+@media only screen and (max-width: 992px) {
+   
+}
+
+ /* Small devices (portrait tablets and large phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+    
+    .BookReportContainer {
+        margin: 0 5vw;
+    }
+    .BookReportTitle {
+        font-size: 2rem;
+    }
+    
+    .BookReportSelectionBar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        margin: 5px 0px 35px 0px;
+    }
+    
+}
+
+/* Extra small devices - landscape (RatChecker landscape smartphone and portrait tablet look different) */
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .BookReportContainer {
+        margin: 0 5vw;
+    }
+    .BookReportTitle {
+        font-size: 1.75rem;
+    }
+    .BookDropdown {
+        margin: 0px 3px;
+    }
+    
+    .ChapterDropdown {
+        margin: 0px 3px;
+    }
+    
+    .SelectionDisplay {
+        width: 90%;
+        margin: 15px 0px 0px 0px;
+    }
+    
+    .ReportInput {
+        width: 90%;
+    }
+    
+    .ReportControls {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 0 0 33px 0;
+    }
+
+}

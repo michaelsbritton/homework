@@ -1,0 +1,155 @@
+.TeacherBookReportsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TeacherBookReportsHeader {
+    margin: 25px 0px;
+}
+
+.TeacherBookReportsButtons {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);  
+    row-gap: 20px;
+    column-gap: 20px;
+
+    padding: 0px 25px;
+}
+
+.TeacherBookReportsAllButtonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+    margin: 0 10vw;
+}
+
+.TeacherBookReportsButtonSet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 15px 0;
+}
+
+.TeacherBookReportsIconAndTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.TeacherBookReportsButtonsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.TeacherBookReportsData {
+    min-height: 300px;
+    width: 65vw;
+    border: 2px solid black;
+
+    padding: 20px;
+    margin: 50px;
+}
+
+
+/* -----RESPONSIVE DESIGN TEMPLATES----- */
+/* -------DESKTOP-FIRST TEMPLATE------- */
+/* Extra large devices (large laptops/desktops, 1201px and up) */
+@media only screen and (min-width: 1201px) {
+
+}  
+/* Large devices (laptops/desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+
+} 
+
+/* Medium devices (landscape tablets, 992px and down) */
+@media only screen and (max-width: 992px) {
+   
+}
+
+ /* Small devices (portrait tablets and large phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+    
+    .TeacherBookReportsContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .TeacherBookReportsHeader {
+        margin: 15px 0px;
+    }
+    
+    .TeacherBookReportsButtons {
+
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);  
+        row-gap: 15px;
+        column-gap: 15px;
+    
+        padding: 0px 50px;
+    }
+    
+    .TeacherBookReportsData {
+        min-height: 300px;
+        width: 65vw;
+        border: 2px solid black;
+    
+        padding: 20px;
+        margin: 50px;
+    }
+
+}
+
+/* Extra small devices - landscape (RatChecker landscape smartphone and portrait tablet look different) */
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+
+}
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .TeacherBookReportsContainer {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .TeacherBookReportsHeader {
+        margin: 15px 0px;
+    }
+    
+    .TeacherBookReportsButtons {
+        display: grid;
+        grid-template-columns: repeat(2, 0fr);  
+        row-gap: 10px;
+        column-gap: 10px;
+    
+        padding: 0px 50px;
+    }
+    .TeacherBookReportsButtons button {
+        width: 100px;
+    }
+    
+    .TeacherBookReportsData {
+        min-height: 300px;
+        width: 85vw;
+        border: 2px solid black;
+    
+        padding: 20px;
+        margin: 50px;
+    }
+
+}
