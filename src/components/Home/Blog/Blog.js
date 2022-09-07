@@ -30,7 +30,7 @@ const Blog = () => {
                     <ul>
                         <li>Set custom favicons</li>
                         <li>Changed and debugged favicon links</li>
-                        <li>Troubleshoot small errors arising from updates</li>
+                        <li>Troubleshoot small errors with GIT repository</li>
                     </ul>
                 </div>
             </div>
