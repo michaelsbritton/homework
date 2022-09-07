@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import { Form, Button, Card } from 'react-bootstrap';
-import { useHistory } from 'react-router';
-// import { useAuth } from '../../contexts/AuthContext';
+import { useNavigate } from 'react-router-dom';
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
 
@@ -11,7 +10,7 @@ const Login = (props) => {
 
     const auth = getAuth();
 
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const emailRef = useRef();
     const passwordRef = useRef();
@@ -26,7 +25,7 @@ const Login = (props) => {
             const user = userCredential.user;
             console.log("Logged In: " + user)
             console.log(Object.keys(user))
-            history.push('/Teacher');
+            navigate('/Teacher', {replace:true});
         })
         .catch((error) => {
             const errorCode = error.code;

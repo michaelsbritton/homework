@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Primitive';
+  font=family: 'Primitive';
   src: local('Primitive'), url('./assets/fonts/Primitive.ttf') format('truetype');
 }
 
@@ -8,8 +8,6 @@
   flex-direction: column;
   text-align: center;
 }
-
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

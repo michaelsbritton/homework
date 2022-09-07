@@ -1,0 +1,23 @@
+.HwAccordionElement {
+    width: 55vw;
+    margin-bottom: 25px;
+}
+
+ul{
+    margin-left:10px;
+  }
+  
+  /* Second Level */
+ul ul{
+    margin-left:15px;
+  }
+  
+  /* Third Level */
+ul ul ul{
+    margin-left:20px;
+  }
+
+li {
+    padding-left: 50px;
+    text-align: left;
+}

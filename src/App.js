@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 
 import app, { auth } from './firebase/firebase';
 
@@ -42,21 +42,22 @@ function App() {
   return (
     <div className="App">
       {/* <AuthProvider> */}
-        <HashRouter>  
+        <BrowserRouter>  
           <Header />
-          <Switch>
-            <Route path="/HW" component={Homework} />
-            <Route path="/BookReports" render={()=> <BookReports db={database} />} />
-            {/* <Route path="/BookReports" component={BookReports} /> */}
-            {/* <Route path="/TeacherLogin" component={TeacherLogin} /> */}
-            <Route path='/TeacherLogin' render={()=> <TeacherLogin />} />
-            <Route path='/Teacher' component={Teacher} />
-            <Route path="/" component={Home} />
-          </Switch>
-        </HashRouter>
+          <Routes>
+            <Route path='/' element={<Navigate replace to='/Home' />} />
+            <Route path='/Home' element={<Home />} />
+            <Route path='/HW' element={<Homework />} />
+            <Route path='/BookReports'  element={<BookReports db={database} />} />
+            <Route path='/Teacher' element={<Teacher />} />
+            <Route path='/TeacherLogin' element={<TeacherLogin />} />
+            
+          </Routes>
+        </BrowserRouter>
       {/* </AuthProvider> */}
     </div>  
   );
 }
 
 export default App;
+

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
 import Media from 'react-media';
 
@@ -19,9 +18,9 @@ const Header = () => {
             if (user) {
               // User is signed in, see docs for a list of available properties
               // https://firebase.google.com/docs/reference/js/firebase.User
-              const uid = user.uid;
-              const updateUserEmail = user.email
-              console.log(user)
+            //   const uid = user.uid;
+            //   const updateUserEmail = user.email
+            //   console.log(user)
               setLoggedIn(true)
             } else {
               // User is signed out
@@ -29,7 +28,7 @@ const Header = () => {
               setLoggedIn(false)
             }
           });
-    }, [loggedIn])
+    }, [loggedIn, auth])
 
   
 

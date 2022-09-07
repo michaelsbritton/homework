@@ -6,8 +6,6 @@ import Modal from 'react-bootstrap/Modal';
 
 import { ref, onValue, set } from "firebase/database";
 
-// import autosize from 'autosize';
-
 import bookData from '../../assets/BookReportData.json';
 
 import './BookReports.css';

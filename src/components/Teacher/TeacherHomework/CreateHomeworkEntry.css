@@ -1,0 +1,22 @@
+.CreateHomeworkEntryContainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px;
+}
+
+.CreateHomeworkEntryRow {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+    margin: 0px;
+}
+
+.CreateHomeworkEntryInputGroup {
+    width: 75vw;
+}
