@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b907c9ae586a99e7124c",
+    "revision": "147c599dc79301c5a355",
     "url": "/homework/static/css/main.eef7de4e.chunk.css"
   },
   {
-    "revision": "b907c9ae586a99e7124c",
-    "url": "/homework/static/js/main.b907c9ae.chunk.js"
+    "revision": "147c599dc79301c5a355",
+    "url": "/homework/static/js/main.147c599d.chunk.js"
   },
   {
     "revision": "d7170788b56f376d75d4",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/homework/static/media/vandalize.1b7f655f.mp3"
   },
   {
-    "revision": "2d896e171dbb2557afca797a057006d7",
+    "revision": "8df33b11d9ba3350ecc07b21466768a9",
     "url": "/homework/index.html"
   }
 ];
