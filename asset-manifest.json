@@ -1,7 +1,7 @@
 {
-  "main.css": "/homework/static/css/main.4dfb43a5.chunk.css",
-  "main.js": "/homework/static/js/main.39085fe1.chunk.js",
-  "main.js.map": "/homework/static/js/main.39085fe1.chunk.js.map",
+  "main.css": "/homework/static/css/main.be990856.chunk.css",
+  "main.js": "/homework/static/js/main.df3d5215.chunk.js",
+  "main.js.map": "/homework/static/js/main.df3d5215.chunk.js.map",
   "static/js/1.42ca1578.chunk.js": "/homework/static/js/1.42ca1578.chunk.js",
   "static/js/1.42ca1578.chunk.js.map": "/homework/static/js/1.42ca1578.chunk.js.map",
   "static/css/2.2e6f33eb.chunk.css": "/homework/static/css/2.2e6f33eb.chunk.css",
@@ -43,9 +43,9 @@
   "static/media/settle for.mp3": "/homework/static/media/settle for.e9b1bb3e.mp3",
   "static/media/sift through.mp3": "/homework/static/media/sift through.e1b0362a.mp3",
   "static/media/vandalize.mp3": "/homework/static/media/vandalize.1b7f655f.mp3",
-  "static/css/main.4dfb43a5.chunk.css.map": "/homework/static/css/main.4dfb43a5.chunk.css.map",
+  "static/css/main.be990856.chunk.css.map": "/homework/static/css/main.be990856.chunk.css.map",
   "static/css/2.2e6f33eb.chunk.css.map": "/homework/static/css/2.2e6f33eb.chunk.css.map",
   "index.html": "/homework/index.html",
-  "precache-manifest.8a1a2140a03c961f1fb24dcbeeebaa96.js": "/homework/precache-manifest.8a1a2140a03c961f1fb24dcbeeebaa96.js",
+  "precache-manifest.c76b16dac830d2fdb7af4036d4873af2.js": "/homework/precache-manifest.c76b16dac830d2fdb7af4036d4873af2.js",
   "service-worker.js": "/homework/service-worker.js"
 }
